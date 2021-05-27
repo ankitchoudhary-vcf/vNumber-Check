@@ -1,4 +1,4 @@
-## vtextpad
+## vnumper-check
 ### A Javascript Library for number manipulation
 ### - By Ankit Choudhary
 

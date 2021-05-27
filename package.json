@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/ankit1509/vNumber-Check/issues"
   },
-  "homepage": "https://github.com/ankit1509/vNumber-Check#readme"
+  "homepage": "https://github.com/ankit1509/vNumber-Check#readme",
+  "dependencies": {
+    "vnumber-check": "^1.0.0"
+  }
 }
