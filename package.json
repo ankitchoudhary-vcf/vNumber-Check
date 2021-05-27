@@ -1,6 +1,6 @@
 {
   "name": "vnumber-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "number check library to check nature of number or performer mathematical operations",
   "main": "index.js",
   "scripts": {
