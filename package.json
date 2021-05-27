@@ -1,0 +1,31 @@
+{
+  "name": "vnumber-check",
+  "version": "1.0.0",
+  "description": "number check library to check nature of number or performer mathematical operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit1509/vNumber-Check.git"
+  },
+  "keywords": [
+    "number-check",
+    "ankitChoudhary",
+    "vcf",
+    "ankit",
+    "number",
+    "maths",
+    "mathematics",
+    "number.operation",
+    "number.check",
+    "operation"
+  ],
+  "author": "Ankit Choudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankit1509/vNumber-Check/issues"
+  },
+  "homepage": "https://github.com/ankit1509/vNumber-Check#readme"
+}
