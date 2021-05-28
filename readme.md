@@ -1,7 +1,8 @@
 ## vnumper-check
 ### A Javascript Library for number manipulation
-### - By Ankit Choudhary
-
+### - By 
+### 1. Ankit Choudhary 
+### 2. Himanshu Jangid
 # Example-1
 ```
 const vnumber_check = require("vnumber-check")
