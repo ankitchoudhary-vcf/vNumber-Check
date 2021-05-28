@@ -8,7 +8,7 @@ const vnumber_check = require("vnumber-check")
 const input = 12
 const output = vnumber_check.isPerfect(12)
 console.log(output)
- 
+
 * *****
 output : 
 false
@@ -35,7 +35,7 @@ console.log(output)
 * *****
 output : 
 true
-```
+````
 
 - This Library one from the collection of libraries created by Vedik Devs in VCF
 
