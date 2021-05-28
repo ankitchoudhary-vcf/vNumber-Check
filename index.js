@@ -115,4 +115,69 @@ function isPerfect(number) {
     return false;
 }
 
-module.exports = {isPerfect, isArmstrong, isPalindrome}
+
+/**
+ * Function check the input number is even number or not
+ * @param {number} input the input number to apply check on - (can be of any length)
+ * @returns {boolean} the output will be the boolean value if the input is even number the it will return true otherwise false
+ * @summary This function check whether the input number is even number or not
+ * @example 
+ * - code 
+ * const vnumber_check = require("vnumber-check")
+ * const input = 121
+ * const output = vnumber_check.isEven(122)
+ * console.log(output)
+ * 
+ * *****
+ * output : 
+ * true
+ * 
+ * @author Himanshu Jangid
+ * @license MIT
+ */
+
+function isEven(number) {
+
+    if (typeof number === 'number') {
+        if (number % 2 == 0) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
+
+/**
+ * Function check the input number is odd number or not
+ * @param {number} input the input number to apply check on - (can be of any length)
+ * @returns {boolean} the output will be the boolean value if the input is odd number the it will return true otherwise false
+ * @summary This function check whether the input number is odd number or not
+ * @example 
+ * - code 
+ * const vnumber_check = require("vnumber-check")
+ * const input = 121
+ * const output = vnumber_check.isOdd(122)
+ * console.log(output)
+ * 
+ * *****
+ * output : 
+ * true
+ * 
+ * @author Himanshu Jangid
+ * @license MIT
+ */
+
+ function isOdd(number) {
+
+    if (typeof number === 'number') {
+        if (number % 2 != 0) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
+
+module.exports = {isPerfect, isArmstrong, isPalindrome, isEven, isOdd}
