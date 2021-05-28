@@ -25,8 +25,8 @@ output :
 true
 ```
 
-```
 # Example-3
+```
 const vnumber_check = require("vnumber-check")
 const input = 121
 const output = vnumber_check.isPalindrome(121)
